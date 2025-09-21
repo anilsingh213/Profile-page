@@ -1,0 +1,289 @@
+@font-face {
+    font-family: simple;
+    src: url(./OpenSans-Bold.ttf);
+}
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+html, body{
+    height: 100%;
+    width: 100%;
+}
+nav{
+    height: 80px;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 45px;
+}
+#div1 h1{
+    color: #9D4EDD;
+    font-size: 45px;
+    font-weight: 700;
+    letter-spacing: 3px;
+}
+
+#div2{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+#div2 h4{
+    color: #9D4EDD;
+    font-size: 20px;
+    font-weight: 500;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+#centre{
+    height: 100%;
+    width: 100%;
+    background-color: #55118c;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+#left{
+    margin-top: 50px;
+    height: 100%;
+    width: 45%;
+    position: relative;
+}
+#right{
+    margin-top: 25px;
+    height: 100%;
+    width: 45%;
+    padding: 200px 0px 0px 50px;
+    line-height: 60px;
+    font-family: simple;
+}
+#right button{
+    background-color: #9D4EDD;
+    color: white;
+    padding: 15px 20px;
+    border-radius: 50px;
+    font-size: large;
+    border: 1px solid #55118c;
+    transition: all ease 0.4s;
+    cursor: pointer;
+}
+button:hover {
+    scale: 1.1;
+}
+#left-side{
+    height: 50%;
+    width: 60%;
+    background-color: black;
+    position: absolute;
+    top: 18%;
+    left: 30%;
+    border-radius: 25px;
+    overflow: hidden;
+
+}
+#left-side img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border: 7px solid whitesmoke;
+     border-radius: 25px;
+    overflow: hidden;
+}
+#right h5{
+    font-size: 58px;
+    line-height: 100px;
+}
+#right h3{
+    font-size: 28px;
+    color: whitesmoke;
+}
+#right h1{
+    font-size: 50px;
+    color: whitesmoke;
+}
+h1 span{
+    background-color: #9a5ccc;
+    color: white;
+    padding: 2px 12px;
+    border-radius: 50px;
+}
+#right h2{
+    font-size: 25px;
+    font-weight: 400;
+    color: whitesmoke;
+}
+#right h4{
+    font-size: 23px;
+    font-weight: 0;
+     color: whitesmoke;
+}
+#centre2{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    position: relative;
+}
+#centre2 h1{
+    color: #55118c;
+    font-size: 60px;
+    text-align: center;
+    padding-top: 130px;
+
+}
+#centre2 p{
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    padding-top: 30px;
+    line-height: 30px;
+    font-weight: 300;
+    word-spacing: 2px;
+}
+#centre2-2{
+    height: 30%;
+    width: 100%;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    padding-top: 35px;
+    position: relative;
+}
+#centre2-22{
+    height: 80%;
+    width: 30%;
+    background-color: transparent;
+    border-radius: 30px;
+    border: 7px solid #9D4EDD;
+    text-align: center;
+    transition: all ease 0.3s;
+    cursor: pointer;
+}
+#centre2-22:hover{
+    scale: 1.1;
+}
+#centre2-23{
+    height: 80%;
+    width: 30%;
+    background-color: transparent;
+    border-radius: 30px;
+    border: 7px solid #9D4EDD;
+    position: relative;
+    transition: all ease 0.3s;
+    cursor: pointer;
+}
+#centre2-23:hover{
+    scale: 1.1;
+}
+#centre2-3{
+    height: 30%;
+    width: 100%;
+    background-color: transparent;
+}
+#centre2-33{
+    height: 75%;
+    width: 70%;
+    background-color: transparent;
+    border: 7px solid #9D4EDD;
+    border-radius: 30px;
+    margin-left: 225px;
+    transition: all ease 0.3s;
+    cursor: pointer;
+}
+#centre2-33:hover{
+    scale: 1.1;
+}
+#centre2-22 h2{
+    font-size: 30px;
+    position: absolute;
+    color: skyblue;
+    margin-left: 160px;
+    margin-top: 30px;
+}
+
+#centre2-23 h3{
+    font-size: 30px;
+    position: absolute;
+    color: skyblue;
+    margin-left: 160px;
+    margin-top: 30px;
+}
+#centre2-22 h4{
+    font-size: 20px;
+    font-weight: 400;
+    position: absolute;
+    color: white;
+    margin-left: 90px;
+    margin-top: 95px;
+}
+#centre2-23 h5{
+    font-size: 20px;
+    font-weight: 400;
+    position: absolute;
+    color: white;
+    margin-left: 70px;
+    margin-top: 95px;
+}
+#centre2-33 h6{
+    font-size: 30px;
+    position: absolute;
+    color: skyblue;
+    margin-left: 500px;
+    margin-top: 30px;
+}
+#centre2-33 h5{
+    font-size: 20px;
+    font-weight: 400;
+    position: absolute;
+    color: white;
+    margin-left: 420px;
+    margin-top:100px;
+}
+#centre3{
+    height: 100%;
+    width: 100%;
+    background-color: #55118c;
+    position: relative;
+}
+#centre3 h1{
+    text-align: center;
+    font-size: 60px;
+    padding-top: 200px;
+}
+#centre3 input{
+    padding: 15px 150px;
+    align-items: center;
+    font-size: large;
+    border-radius: 10px;
+    background-color: transparent;
+    color: white;
+    font-weight: 100;
+    border: 1px solid white;
+    transition: all ease 0.1s;
+}
+input:hover {
+    scale: 1.02;
+}
+#centre3 form{
+    padding-left: 500px;
+    padding-top: 30px;
+}
+#centre3 #battu{
+    background-color: black;
+    color: white;
+    padding: 15px 200px;
+    font-size: large;
+    border-radius: 50px;
+    border: none;
+    transition: all ease 0.3s;
+    position: absolute;
+    left: 505px;
+    cursor: pointer;
+}
+#battu:hover {
+    scale: 1.1;
+}
